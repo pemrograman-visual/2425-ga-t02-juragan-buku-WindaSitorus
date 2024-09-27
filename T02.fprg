@@ -4,9 +4,9 @@
         <attribute name="name" value="T02"/>
         <attribute name="authors" value="VIVOBOOK"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2024-09-27 11:14:57 AM"/>
+        <attribute name="saved" value="2024-09-27 11:26:22 AM"/>
         <attribute name="created" value="VklWT0JPT0s7V0lOREE7MjAyNC0wOS0yNzsxMDowMzoyNSBBTTsyMjYw"/>
-        <attribute name="edited" value="VklWT0JPT0s7V0lOREE7MjAyNC0wOS0yNzsxMToxNDo1NyBBTTs0OzIzNzk="/>
+        <attribute name="edited" value="VklWT0JPT0s7V0lOREE7MjAyNC0wOS0yNzsxMToyNjoyMiBBTTs1OzIzNzU="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -14,6 +14,7 @@
             <declare name="isbn, judul, penulis, penerbit, formatbuku, kategori" type="String" array="False" size=""/>
             <declare name="tahunterbit, stok" type="Integer" array="False" size=""/>
             <declare name="hargapembelian, minimummargin, rating" type="Real" array="False" size=""/>
+            <assign variable="penerbit" expression="&quot;&quot;"/>
             <input variable="isbn"/>
             <input variable="judul"/>
             <input variable="penulis"/>
