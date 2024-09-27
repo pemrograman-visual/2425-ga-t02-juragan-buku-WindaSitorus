@@ -36,6 +36,8 @@ public class T02 {
                     } else {
                         if (rating < 3.0) {
                             kategori = "Low";
+                        } else {
+                            kategori = "";
                         }
                     }
                 }

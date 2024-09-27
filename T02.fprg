@@ -4,9 +4,9 @@
         <attribute name="name" value="T02"/>
         <attribute name="authors" value="VIVOBOOK"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2024-09-27 11:09:19 AM"/>
+        <attribute name="saved" value="2024-09-27 11:14:57 AM"/>
         <attribute name="created" value="VklWT0JPT0s7V0lOREE7MjAyNC0wOS0yNzsxMDowMzoyNSBBTTsyMjYw"/>
-        <attribute name="edited" value="VklWT0JPT0s7V0lOREE7MjAyNC0wOS0yNzsxMTowOToxOSBBTTszOzIzODA="/>
+        <attribute name="edited" value="VklWT0JPT0s7V0lOREE7MjAyNC0wOS0yNzsxMToxNDo1NyBBTTs0OzIzNzk="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -48,7 +48,9 @@
                                                 <then>
                                                     <assign variable="kategori" expression="&quot;Low&quot;"/>
                                                 </then>
-                                                <else/>
+                                                <else>
+                                                    <assign variable="kategori" expression="&quot;&quot;"/>
+                                                </else>
                                             </if>
                                         </else>
                                     </if>
