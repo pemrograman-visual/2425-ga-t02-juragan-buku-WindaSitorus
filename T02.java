@@ -8,11 +8,12 @@ public class T02 {
     private static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
-        String isbn, judul, penulis, penerbit, formatbuku, kategori;
+        String isbn, judul, penulis, formatbuku, kategori;
+        String penerbit;
         int tahunterbit, stok;
         double hargapembelian, minimummargin, rating;
 
-        penerbit = "---";
+        penerbit = "";
         isbn = input.nextLine();
         judul = input.nextLine();
         penulis = input.nextLine();
