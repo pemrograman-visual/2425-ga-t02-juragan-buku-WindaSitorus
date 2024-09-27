@@ -8,8 +8,7 @@ public class T02 {
     private static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
-        String isbn, judul, penulis, formatbuku, kategori;
-        String penerbit;
+        String isbn, judul, penulis, penerbit, formatbuku, kategori;
         int tahunterbit, stok;
         double hargapembelian, minimummargin, rating;
 
@@ -42,10 +41,6 @@ public class T02 {
                 }
             }
         }
-        System.out.println(isbn + "|" + judul + "|" + penulis + "|" + tahunterbit + "|" + penerbit + "|" + formatbuku + "|" + hargapembelian + "|" + minimummargin + "|" + stok + "|" + toFixed(rating,1) + "|" + kategori);
-    }
-    
-    private static String toFixed(double value, int digits) {
-        return String.format("%." + digits + "f", value);
+        System.out.println(isbn + "|" + judul + "|" + penulis + "|" + tahunterbit + "|" + penerbit + "|" + formatbuku + "|" + hargapembelian + "|" + minimummargin + "|" + stok + "|" + rating + "|" + kategori);
     }
 }
