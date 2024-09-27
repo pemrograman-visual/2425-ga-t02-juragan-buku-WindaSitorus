@@ -12,7 +12,7 @@ public class T02 {
         int tahunterbit, stok;
         double hargapembelian, minimummargin, rating;
 
-        penerbit = "";
+        penerbit = "---";
         isbn = input.nextLine();
         judul = input.nextLine();
         penulis = input.nextLine();
