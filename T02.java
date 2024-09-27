@@ -4,7 +4,7 @@
 import java.util.*;
 import java.lang.Math;
 
-public class T02 {
+public class JavaApplication {
     private static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -17,12 +17,12 @@ public class T02 {
         judul = input.nextLine();
         penulis = input.nextLine();
         penerbit = input.nextLine();
-        tahunterbit = input.nextInt();
+        tahunterbit = Integer.parseInt(input.nextLine());
         formatbuku = input.nextLine();
-        hargapembelian = input.nextDouble();
-        minimummargin = input.nextDouble();
-        stok = input.nextInt();
-        rating = input.nextDouble();
+        hargapembelian = Double.parseDouble(input.nextLine());
+        minimummargin = Double.parseDouble(input.nextLine());
+        stok = Integer.parseInt(input.nextLine());
+        rating = Double.parseDouble(input.nextLine());
         if (rating >= 4.7) {
             kategori = "Best Pick";
         } else {
