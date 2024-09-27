@@ -13,7 +13,6 @@ public class T02 {
         int tahunterbit, stok;
         double hargapembelian, minimummargin, rating;
 
-        penerbit = "";
         isbn = input.nextLine();
         judul = input.nextLine();
         penulis = input.nextLine();
@@ -38,8 +37,6 @@ public class T02 {
                     } else {
                         if (rating < 3.0) {
                             kategori = "Low";
-                        } else {
-                            kategori = "";
                         }
                     }
                 }
