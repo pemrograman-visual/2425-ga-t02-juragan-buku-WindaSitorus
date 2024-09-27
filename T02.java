@@ -1,5 +1,6 @@
 // 12S24001-Fredrick Aritonang
 // 12S24019-Winda N.V. Sitorus
+
 import java.util.*;
 import java.lang.Math;
 
@@ -40,6 +41,10 @@ public class T02 {
                 }
             }
         }
-        System.out.println(isbn + "|" + judul + "|" + penulis + "|" + tahunterbit + "|" + penerbit + "|" + formatbuku + "|" + hargapembelian + "|" + minimummargin + "|" + stok + "|" + rating + "|" + kategori);
+        System.out.println(isbn + "|" + judul + "|" + penulis + "|" + tahunterbit + "|" + penerbit + "|" + formatbuku + "|" + hargapembelian + "|" + minimummargin + "|" + stok + "|" + toFixed(rating,1) + "|" + kategori);
+    }
+    
+    private static String toFixed(double value, int digits) {
+        return String.format("%." + digits + "f", value);
     }
 }

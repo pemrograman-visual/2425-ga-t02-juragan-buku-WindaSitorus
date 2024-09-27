@@ -4,9 +4,9 @@
         <attribute name="name" value="T02"/>
         <attribute name="authors" value="VIVOBOOK"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2024-09-27 10:35:53 AM"/>
+        <attribute name="saved" value="2024-09-27 11:09:19 AM"/>
         <attribute name="created" value="VklWT0JPT0s7V0lOREE7MjAyNC0wOS0yNzsxMDowMzoyNSBBTTsyMjYw"/>
-        <attribute name="edited" value="VklWT0JPT0s7V0lOREE7MjAyNC0wOS0yNzsxMDozNTo1MyBBTTsyOzIzNzU="/>
+        <attribute name="edited" value="VklWT0JPT0s7V0lOREE7MjAyNC0wOS0yNzsxMTowOToxOSBBTTszOzIzODA="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -58,7 +58,7 @@
                     </if>
                 </else>
             </if>
-            <output expression="isbn &amp; &quot;|&quot; &amp; judul &amp; &quot;|&quot; &amp; penulis &amp; &quot;|&quot; &amp; tahunterbit &amp; &quot;|&quot; &amp; penerbit  &amp; &quot;|&quot; &amp; formatbuku &amp; &quot;|&quot; &amp; hargapembelian &amp; &quot;|&quot; &amp; minimummargin &amp; &quot;|&quot; &amp; stok &amp; &quot;|&quot; &amp; rating &amp; &quot;|&quot; &amp; kategori" newline="True"/>
+            <output expression="isbn &amp; &quot;|&quot; &amp; judul &amp; &quot;|&quot; &amp; penulis &amp; &quot;|&quot; &amp; tahunterbit &amp; &quot;|&quot; &amp; penerbit  &amp; &quot;|&quot; &amp; formatbuku &amp; &quot;|&quot; &amp; hargapembelian &amp; &quot;|&quot; &amp; minimummargin &amp; &quot;|&quot; &amp; stok &amp; &quot;|&quot; &amp; tofixed(rating,1) &amp; &quot;|&quot; &amp; kategori" newline="True"/>
         </body>
     </function>
 </flowgorithm>
